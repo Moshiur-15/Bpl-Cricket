@@ -10,7 +10,6 @@ const AllPlayer = ({
   handleDelete,
   claimFreeCredit,
 }) => {
-  // All player data
   const [allPlayer, setAllPlayer] = useState([]);
   useEffect(() => {
     const dataFetch = async () => {
